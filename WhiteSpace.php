@@ -39,7 +39,7 @@ $wgExtensionCredits[ 'parserhook' ][] = array(
 	'version' => '0.0.1',
 	'license' => 'AGPLv3',
 	'author'  => array( '[https://www.mediawiki.org/wiki/User:Van_de_Bugger Van de Bugger]' ),
-	'url'     => 'http://www.mediawiki.org/wiki/Extension:WhiteSpace',
+	'url'     => 'https://www.mediawiki.org/wiki/Extension:WhiteSpace',
 	'descriptionmsg'  => 'whitespace-desc',
 );
 
