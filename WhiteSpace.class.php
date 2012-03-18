@@ -28,14 +28,14 @@ class WhiteSpace {
 		switch ( $match[ 1 ] ) {
 			case 'dws' : {
 				return '';
-			} break;
+			}
 			case 'nl' : {
 				return "\n" . $match[ 2 ];
-			} break;
+			}
 			default : {
 				return $match[ 0 ];
-			} break;
-		}; // if
+			}
+		}
 	} // function callback
 
 	static private function replaceTags( &$text ) {
@@ -45,7 +45,7 @@ class WhiteSpace {
 	static public function onParserBeforePreprocess( $parser, &$text, $flags ) {
 		if ( $flags & Parser::PTD_FOR_INCLUSION ) {
 			self::replaceTags( $text );
-		}; // if
+		} // if
 		return true;
 	} // function onParserBeforePreprocess
 
