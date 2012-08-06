@@ -15,11 +15,19 @@ $messages['en'] = array(
 	'whitespace-desc' => 'Adds tags to control whitespaces',
 );
 
+/** Message documentation (Message documentation)
+ * @author Kghbln
+ */
+$messages['qqq'] = array(
+	'whitespace-desc' => '{{desc}}',
+);
+
 /** German (Deutsch)
+ * @author Kghbln
  * @author Metalhead64
  */
 $messages['de'] = array(
-	'whitespace-desc' => 'Fügt Markierungen hinzu, um Leerzeichen zu kontrollieren',
+	'whitespace-desc' => 'Ergänzt die Tags <code><nowiki><dws /></nowiki></code> und <code><nowiki><nl /></nowiki></code> mit denen man das Verhalten von Leerzeichen steuern kann',
 );
 
 /** Galician (galego)
@@ -27,6 +35,34 @@ $messages['de'] = array(
  */
 $messages['gl'] = array(
 	'whitespace-desc' => 'Engade etiquetas para controlar os espazos en branco',
+);
+
+/** Upper Sorbian (hornjoserbsce)
+ * @author Michawiki
+ */
+$messages['hsb'] = array(
+	'whitespace-desc' => 'Přidawa znački, zo by prózdny rum wodźiło',
+);
+
+/** Interlingua (interlingua)
+ * @author McDutchie
+ */
+$messages['ia'] = array(
+	'whitespace-desc' => 'Adde etiquettas pro controlar le spatios blanc',
+);
+
+/** Macedonian (македонски)
+ * @author Bjankuloski06
+ */
+$messages['mk'] = array(
+	'whitespace-desc' => 'Додава ознаки за контрола на празните простори',
+);
+
+/** Dutch (Nederlands)
+ * @author Siebrand
+ */
+$messages['nl'] = array(
+	'whitespace-desc' => 'Voegt labels om witruimte te kunnen bepalen',
 );
 
 /** Tagalog (Tagalog)
