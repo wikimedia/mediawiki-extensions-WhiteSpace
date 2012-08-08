@@ -51,6 +51,13 @@ $messages['ia'] = array(
 	'whitespace-desc' => 'Adde etiquettas pro controlar le spatios blanc',
 );
 
+/** Korean (한국어)
+ * @author 아라
+ */
+$messages['ko'] = array(
+	'whitespace-desc' => '공백을 제어하는 태그 추가',
+);
+
 /** Macedonian (македонски)
  * @author Bjankuloski06
  */
