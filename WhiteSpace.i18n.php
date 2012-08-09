@@ -30,6 +30,13 @@ $messages['de'] = array(
 	'whitespace-desc' => 'Ergänzt die Tags <code><nowiki><dws /></nowiki></code> und <code><nowiki><nl /></nowiki></code> mit denen man das Verhalten von Leerzeichen steuern kann',
 );
 
+/** French (français)
+ * @author Erkethan
+ */
+$messages['fr'] = array(
+	'whitespace-desc' => 'Ajoute des balises pour contrôler les espaces',
+);
+
 /** Galician (galego)
  * @author Toliño
  */
