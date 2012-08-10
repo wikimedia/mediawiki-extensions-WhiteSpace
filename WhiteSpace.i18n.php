@@ -58,6 +58,20 @@ $messages['ia'] = array(
 	'whitespace-desc' => 'Adde etiquettas pro controlar le spatios blanc',
 );
 
+/** Italian (italiano)
+ * @author Darth Kule
+ */
+$messages['it'] = array(
+	'whitespace-desc' => 'Aggiunge dei tag per controllare i caratteri di spaziatura',
+);
+
+/** Japanese (日本語)
+ * @author Shirayuki
+ */
+$messages['ja'] = array(
+	'whitespace-desc' => '空白を制御するタグを追加する',
+);
+
 /** Korean (한국어)
  * @author 아라
  */
