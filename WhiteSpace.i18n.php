@@ -44,6 +44,13 @@ $messages['gl'] = array(
 	'whitespace-desc' => 'Engade etiquetas para controlar os espazos en branco',
 );
 
+/** Hebrew (עברית)
+ * @author Amire80
+ */
+$messages['he'] = array(
+	'whitespace-desc' => 'הוספת תגים לבקרה על רווחים',
+);
+
 /** Upper Sorbian (hornjoserbsce)
  * @author Michawiki
  */
