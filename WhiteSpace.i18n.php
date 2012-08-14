@@ -93,6 +93,13 @@ $messages['mk'] = array(
 	'whitespace-desc' => 'Додава ознаки за контрола на празните простори',
 );
 
+/** Malay (Bahasa Melayu)
+ * @author Anakmalaysia
+ */
+$messages['ms'] = array(
+	'whitespace-desc' => 'Membubuh teg untuk mengawal ruang putih',
+);
+
 /** Dutch (Nederlands)
  * @author Siebrand
  */
