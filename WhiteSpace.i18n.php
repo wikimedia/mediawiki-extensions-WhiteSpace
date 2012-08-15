@@ -30,11 +30,25 @@ $messages['de'] = array(
 	'whitespace-desc' => 'Ergänzt die Tags <code><nowiki><dws /></nowiki></code> und <code><nowiki><nl /></nowiki></code> mit denen man das Verhalten von Leerzeichen steuern kann',
 );
 
+/** Lower Sorbian (dolnoserbski)
+ * @author Michawiki
+ */
+$messages['dsb'] = array(
+	'whitespace-desc' => 'Pśidawa marki, aby prozny rum woźiło',
+);
+
 /** French (français)
  * @author Erkethan
  */
 $messages['fr'] = array(
 	'whitespace-desc' => 'Ajoute des balises pour contrôler les espaces',
+);
+
+/** Franco-Provençal (arpetan)
+ * @author ChrisPtDe
+ */
+$messages['frp'] = array(
+	'whitespace-desc' => 'Apond des balises por controlar los èspâços',
 );
 
 /** Galician (galego)
