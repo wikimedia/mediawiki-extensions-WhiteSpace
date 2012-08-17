@@ -22,6 +22,13 @@ $messages['qqq'] = array(
 	'whitespace-desc' => '{{desc}}',
 );
 
+/** Asturian (asturianu)
+ * @author Xuacu
+ */
+$messages['ast'] = array(
+	'whitespace-desc' => 'Amiesta etiquetes pa controlar los espacios en blanco',
+);
+
 /** German (Deutsch)
  * @author Kghbln
  * @author Metalhead64
