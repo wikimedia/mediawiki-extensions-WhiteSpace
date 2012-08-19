@@ -29,6 +29,13 @@ $messages['ast'] = array(
 	'whitespace-desc' => 'Amiesta etiquetes pa controlar los espacios en blanco',
 );
 
+/** Breton (brezhoneg)
+ * @author Y-M D
+ */
+$messages['br'] = array(
+	'whitespace-desc' => 'Ouzhpennañ balizennoù evit kontrollañ an esaouennoù',
+);
+
 /** German (Deutsch)
  * @author Kghbln
  * @author Metalhead64
