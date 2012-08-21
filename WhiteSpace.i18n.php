@@ -51,6 +51,13 @@ $messages['dsb'] = array(
 	'whitespace-desc' => 'Pśidawa marki, aby prozny rum woźiło',
 );
 
+/** Spanish (español)
+ * @author Armando-Martin
+ */
+$messages['es'] = array(
+	'whitespace-desc' => 'Añade etiquetas para controlar los espacios en blanco',
+);
+
 /** French (français)
  * @author Erkethan
  */
