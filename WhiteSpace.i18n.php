@@ -29,6 +29,13 @@ $messages['ast'] = array(
 	'whitespace-desc' => 'Amiesta etiquetes pa controlar los espacios en blanco',
 );
 
+/** Belarusian (Taraškievica orthography) (‪беларуская (тарашкевіца)‬)
+ * @author Wizardist
+ */
+$messages['be-tarask'] = array(
+	'whitespace-desc' => 'Дадае тэгі для маніпуляцыі прыгаламі',
+);
+
 /** Breton (brezhoneg)
  * @author Y-M D
  */
@@ -140,6 +147,13 @@ $messages['ms'] = array(
  */
 $messages['nl'] = array(
 	'whitespace-desc' => 'Voegt labels om witruimte te kunnen bepalen',
+);
+
+/** Piedmontese (Piemontèis)
+ * @author Dragonòt
+ */
+$messages['pms'] = array(
+	'whitespace-desc' => 'A gionta dle tichëtte për controlé jë spassi bianch',
 );
 
 /** Tagalog (Tagalog)
