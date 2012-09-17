@@ -17,9 +17,12 @@ $messages['en'] = array(
 
 /** Message documentation (Message documentation)
  * @author Kghbln
+ * @author Purodha
  */
 $messages['qqq'] = array(
-	'whitespace-desc' => '{{desc}}',
+	'whitespace-desc' => '{{desc}}
+
+See also Wikipedias explanation of [[wikipedia:Whitespace character|whitespace character]].',
 );
 
 /** Asturian (asturianu)
@@ -48,7 +51,7 @@ $messages['br'] = array(
  * @author Metalhead64
  */
 $messages['de'] = array(
-	'whitespace-desc' => 'Ergänzt die Tags <code><nowiki><dws /></nowiki></code> und <code><nowiki><nl /></nowiki></code> mit denen man das Verhalten von Leerzeichen steuern kann',
+	'whitespace-desc' => 'Ergänzt die Tags <code><nowiki><dws /></nowiki></code> und <code><nowiki><nl /></nowiki></code>, mit denen man das Verhalten von Leerzeichen steuern kann',
 );
 
 /** Lower Sorbian (dolnoserbski)
@@ -126,6 +129,13 @@ $messages['ja'] = array(
  */
 $messages['ko'] = array(
 	'whitespace-desc' => '공백을 제어하는 태그 추가',
+);
+
+/** Colognian (Ripoarisch)
+ * @author Purodha
+ */
+$messages['ksh'] = array(
+	'whitespace-desc' => 'Brängk di Befähle <code><nowiki><dws /></nowiki></code> un <code><nowiki><nl /></nowiki></code> en et Wiki, woh mer met schtüüre kann, wi sesch de Zweschereum en der Schreff ußwerke.',
 );
 
 /** Macedonian (македонски)
