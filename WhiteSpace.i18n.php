@@ -159,6 +159,13 @@ $messages['nl'] = array(
 	'whitespace-desc' => 'Voegt labels om witruimte te kunnen bepalen',
 );
 
+/** Polish (polski)
+ * @author BeginaFelicysym
+ */
+$messages['pl'] = array(
+	'whitespace-desc' => 'Dodaje znaczniki do sterowania białymi znakami',
+);
+
 /** Piedmontese (Piemontèis)
  * @author Dragonòt
  */
