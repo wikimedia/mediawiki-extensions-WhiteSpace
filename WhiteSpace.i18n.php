@@ -179,4 +179,3 @@ $messages['pms'] = array(
 $messages['tl'] = array(
 	'whitespace-desc' => 'Nagdaragdag ng mga tatak upang matabanan ang mga puting puwang',
 );
-
