@@ -173,6 +173,13 @@ $messages['pms'] = array(
 	'whitespace-desc' => 'A gionta dle tichëtte për controlé jë spassi bianch',
 );
 
+/** Sinhala (සිංහල)
+ * @author පසිඳු කාවින්ද
+ */
+$messages['si'] = array(
+	'whitespace-desc' => 'සුදුඅවකාශයන් පාලනය කිරීම සඳහා ටැගයන් එක් කරන්න',
+);
+
 /** Tagalog (Tagalog)
  * @author AnakngAraw
  */
