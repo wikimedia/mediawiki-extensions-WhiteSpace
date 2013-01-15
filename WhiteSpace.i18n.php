@@ -173,6 +173,13 @@ $messages['pms'] = array(
 	'whitespace-desc' => 'A gionta dle tichëtte për controlé jë spassi bianch',
 );
 
+/** tarandíne (tarandíne)
+ * @author Joetaras
+ */
+$messages['roa-tara'] = array(
+	'whitespace-desc' => 'Aggiunge le tag pe condrollà le spazie vacande',
+);
+
 /** Sinhala (සිංහල)
  * @author පසිඳු කාවින්ද
  */
