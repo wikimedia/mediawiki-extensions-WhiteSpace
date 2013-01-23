@@ -193,3 +193,10 @@ $messages['si'] = array(
 $messages['tl'] = array(
 	'whitespace-desc' => 'Nagdaragdag ng mga tatak upang matabanan ang mga puting puwang',
 );
+
+/** Simplified Chinese (中文（简体）‎)
+ * @author Yfdyh000
+ */
+$messages['zh-hans'] = array(
+	'whitespace-desc' => '添加标签来控制空格',
+);
