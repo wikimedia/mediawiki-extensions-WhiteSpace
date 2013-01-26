@@ -32,6 +32,13 @@ $messages['ast'] = array(
 	'whitespace-desc' => 'Amiesta etiquetes pa controlar los espacios en blanco',
 );
 
+/** South Azerbaijani (تورکجه)
+ * @author Mousa
+ */
+$messages['azb'] = array(
+	'whitespace-desc' => 'بوش یئرلری کونترول ائتمک اوچون، اِتیکِتلر آرتیرار',
+);
+
 /** Belarusian (Taraškievica orthography) (беларуская (тарашкевіца)‎)
  * @author Wizardist
  */
@@ -192,6 +199,13 @@ $messages['si'] = array(
  */
 $messages['tl'] = array(
 	'whitespace-desc' => 'Nagdaragdag ng mga tatak upang matabanan ang mga puting puwang',
+);
+
+/** Ukrainian (українська)
+ * @author Ата
+ */
+$messages['uk'] = array(
+	'whitespace-desc' => 'Додає теги для контролю пробілів',
 );
 
 /** Simplified Chinese (中文（简体）‎)
