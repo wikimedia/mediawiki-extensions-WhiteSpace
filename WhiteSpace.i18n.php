@@ -18,10 +18,10 @@ $messages['en'] = array(
 /** Message documentation (Message documentation)
  * @author Kghbln
  * @author Purodha
+ * @author Shirayuki
  */
 $messages['qqq'] = array(
-	'whitespace-desc' => '{{desc}}
-
+	'whitespace-desc' => '{{desc|name=White Space|url=http://www.mediawiki.org/wiki/Extension:WhiteSpace}}
 See also Wikipedias explanation of [[wikipedia:Whitespace character|whitespace character]].',
 );
 
