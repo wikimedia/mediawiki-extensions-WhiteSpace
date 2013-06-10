@@ -214,3 +214,10 @@ $messages['uk'] = array(
 $messages['zh-hans'] = array(
 	'whitespace-desc' => '添加标签来控制空格',
 );
+
+/** Traditional Chinese (中文（繁體）‎)
+ * @author Justincheng12345
+ */
+$messages['zh-hant'] = array(
+	'whitespace-desc' => '添加標籤以控制空格',
+);
