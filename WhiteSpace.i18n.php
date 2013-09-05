@@ -180,6 +180,20 @@ $messages['pms'] = array(
 	'whitespace-desc' => 'A gionta dle tichëtte për controlé jë spassi bianch',
 );
 
+/** Portuguese (português)
+ * @author Cainamarques
+ */
+$messages['pt'] = array(
+	'whitespace-desc' => 'Adiciona tags para gerir espaços em branco',
+);
+
+/** Brazilian Portuguese (português do Brasil)
+ * @author Cainamarques
+ */
+$messages['pt-br'] = array(
+	'whitespace-desc' => 'Adiciona tags para gerir espaços em branco',
+);
+
 /** tarandíne (tarandíne)
  * @author Joetaras
  */
