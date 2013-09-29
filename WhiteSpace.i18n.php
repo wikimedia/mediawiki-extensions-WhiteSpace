@@ -201,6 +201,13 @@ $messages['roa-tara'] = array(
 	'whitespace-desc' => 'Aggiunge le tag pe condrollà le spazie vacande',
 );
 
+/** Russian (русский)
+ * @author Okras
+ */
+$messages['ru'] = array(
+	'whitespace-desc' => 'Добавляет теги для управления непечатаемыми знаками',
+);
+
 /** Sinhala (සිංහල)
  * @author පසිඳු කාවින්ද
  */
