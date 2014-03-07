@@ -75,6 +75,13 @@ $messages['es'] = array(
 	'whitespace-desc' => 'Añade etiquetas para controlar los espacios en blanco',
 );
 
+/** Persian (فارسی)
+ * @author Armin1392
+ */
+$messages['fa'] = array(
+	'whitespace-desc' => 'افزودن برچسب‌ها برای کنترل فضاهای خالی',
+);
+
 /** French (français)
  * @author Erkethan
  */
