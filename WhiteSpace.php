@@ -13,7 +13,7 @@
 	without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 	See the GNU Affero General Public License for more details.
 
-	You should have received a copy of the GNU Affero General Public License along with this 
+	You should have received a copy of the GNU Affero General Public License along with this
 	program.  If not, see <https://www.gnu.org/licenses/>.
 	------------------------------------------------------------------------------------------------
 */
@@ -29,6 +29,8 @@ global $wgHooks;
 $wgHooks[ 'ParserBeforePreprocess' ][] = 'WhiteSpace::onParserBeforePreprocess';
 $wgHooks[ 'ParserBeforeStrip'      ][] = 'WhiteSpace::onParserBeforeStrip';
 
+global $wgMessagesDirs;
+$wgMessagesDirs['WhiteSpace'] = __DIR__ . '/i18n';
 global $wgExtensionMessagesFiles;
 $wgExtensionMessagesFiles[ 'WhiteSpace' ] = __DIR__ . '/WhiteSpace.i18n.php';
 
@@ -36,7 +38,7 @@ global $wgExtensionCredits;
 $wgExtensionCredits[ 'parserhook' ][] = array(
 	'path'    => __FILE__,
 	'name'    => 'WhiteSpace',
-	'version' => '0.0.1',
+	'version' => '0.1.0',
 	'license' => 'AGPLv3',
 	'author'  => array( '[https://www.mediawiki.org/wiki/User:Van_de_Bugger Van de Bugger]' ),
 	'url'     => 'https://www.mediawiki.org/wiki/Extension:WhiteSpace',
