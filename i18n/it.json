@@ -1,8 +1,8 @@
 {
-    "@metadata": {
-        "authors": [
-            "Darth Kule"
-        ]
-    },
-    "whitespace-desc": "Aggiunge dei tag per controllare i caratteri di spaziatura"
+	"@metadata": {
+		"authors": [
+			"Darth Kule"
+		]
+	},
+	"whitespace-desc": "Aggiunge dei tag per controllare i caratteri di spaziatura"
 }

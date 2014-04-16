@@ -1,8 +1,8 @@
 {
-    "@metadata": {
-        "authors": [
-            "Erkethan"
-        ]
-    },
-    "whitespace-desc": "Ajoute des balises pour contrôler les espaces"
+	"@metadata": {
+		"authors": [
+			"Erkethan"
+		]
+	},
+	"whitespace-desc": "Ajoute des balises pour contrôler les espaces"
 }

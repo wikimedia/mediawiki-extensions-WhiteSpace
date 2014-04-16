@@ -1,9 +1,9 @@
 {
-    "@metadata": {
-        "authors": [
-            "Kghbln",
-            "Metalhead64"
-        ]
-    },
-    "whitespace-desc": "Ergänzt die Tags <code><nowiki><dws /></nowiki></code> und <code><nowiki><nl /></nowiki></code>, mit denen man das Verhalten von Leerzeichen steuern kann"
+	"@metadata": {
+		"authors": [
+			"Kghbln",
+			"Metalhead64"
+		]
+	},
+	"whitespace-desc": "Ergänzt die Tags <code><nowiki><dws /></nowiki></code> und <code><nowiki><nl /></nowiki></code>, mit denen man das Verhalten von Leerzeichen steuern kann"
 }
