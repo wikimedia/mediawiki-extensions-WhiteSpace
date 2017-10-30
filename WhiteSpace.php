@@ -31,8 +31,6 @@ $wgHooks[ 'ParserBeforeStrip'      ][] = 'WhiteSpace::onParserBeforeStrip';
 
 global $wgMessagesDirs;
 $wgMessagesDirs['WhiteSpace'] = __DIR__ . '/i18n';
-global $wgExtensionMessagesFiles;
-$wgExtensionMessagesFiles[ 'WhiteSpace' ] = __DIR__ . '/WhiteSpace.i18n.php';
 
 global $wgExtensionCredits;
 $wgExtensionCredits[ 'parserhook' ][] = array(
