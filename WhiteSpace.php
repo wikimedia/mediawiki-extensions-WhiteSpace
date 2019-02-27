@@ -1,5 +1,4 @@
-<?php // WhiteSpace.php //
-
+<?php
 /*
 	------------------------------------------------------------------------------------------------
 	WhiteSpace, a MediaWiki extension for controlling white space.
@@ -18,29 +17,16 @@
 	------------------------------------------------------------------------------------------------
 */
 
-if ( ! defined( 'MEDIAWIKI' ) ) {
-	die( 'Not an entry point.' );
-}; # if
-
-global $wgAutoloadClasses;
-$wgAutoloadClasses[ 'WhiteSpace' ] = __DIR__ . '/WhiteSpace.class.php';
-
-global $wgHooks;
-$wgHooks[ 'ParserBeforePreprocess' ][] = 'WhiteSpace::onParserBeforePreprocess';
-$wgHooks[ 'ParserBeforeStrip'      ][] = 'WhiteSpace::onParserBeforeStrip';
-
-global $wgMessagesDirs;
-$wgMessagesDirs['WhiteSpace'] = __DIR__ . '/i18n';
-
-global $wgExtensionCredits;
-$wgExtensionCredits[ 'parserhook' ][] = array(
-	'path'    => __FILE__,
-	'name'    => 'WhiteSpace',
-	'version' => '0.1.0',
-	'license' => 'AGPLv3',
-	'author'  => array( '[https://www.mediawiki.org/wiki/User:Van_de_Bugger Van de Bugger]' ),
-	'url'     => 'https://www.mediawiki.org/wiki/Extension:WhiteSpace',
-	'descriptionmsg'  => 'whitespace-desc',
-);
-
-// end of file //
+if ( function_exists( 'wfLoadExtension' ) ) {
+	wfLoadExtension( 'WhiteSpace' );
+	// Keep i18n globals so mergeMessageFileList.php doesn't break
+	$wgMessagesDirs['WhiteSpace'] = __DIR__ . '/i18n';
+	wfWarn(
+		'Deprecated PHP entry point used for the WhiteSpace extension. ' .
+		'Please use wfLoadExtension instead, ' .
+		'see https://www.mediawiki.org/wiki/Extension_registration for more details.'
+	);
+	return;
+} else {
+	die( 'This version of the WhiteSpace extension requires MediaWiki 1.29+' );
+}
