@@ -20,8 +20,8 @@
 		"WhiteSpace": "WhiteSpace.class.php"
 	},
 	"Hooks": {
-		"ParserBeforePreprocess": "WhiteSpace::onParserBeforePreprocess",
-		"ParserBeforeStrip": "WhiteSpace::onParserBeforeStrip"
+		"ParserBeforePreprocess": "WhiteSpace::onParserBeforeInternalParse",
+		"ParserBeforeInternalParse": "WhiteSpace::onParserBeforeInternalParse"
 	},
 	"manifest_version": 2
 }

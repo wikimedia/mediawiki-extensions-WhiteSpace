@@ -42,14 +42,7 @@ class WhiteSpace {
 		$text = preg_replace_callback( '/<(dws|nl)\s*\/>(\s*)/', 'WhiteSpace::callback', $text );
 	} // function replaceTags
 
-	static public function onParserBeforePreprocess( $parser, &$text, $flags ) {
-		if ( $flags & Parser::PTD_FOR_INCLUSION ) {
-			self::replaceTags( $text );
-		} // if
-		return true;
-	} // function onParserBeforePreprocess
-
-	static public function onParserBeforeStrip( &$parser, &$text, &$strip_state ) {
+	static public function onParserBeforeInternalParse( $parser, &$text, $strip_state ) {
 		self::replaceTags( $text );
 		return true;
 	} // function onParserBeforeStrip
