@@ -1,8 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
-			"Daud I.F. Argana"
+			"Daud I.F. Argana",
+			"Penyuwangi"
 		]
 	},
-	"whitespace-desc": "Menambahkan tag untuk mengendalikan ruang putih"
+	"whitespace-desc": "Menambahkan tanda untuk mengendalikan spasi"
 }
